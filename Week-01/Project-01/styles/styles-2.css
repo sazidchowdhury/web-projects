@@ -1,0 +1,127 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    line-height: 1.6;
+    width: 85%;
+    margin: 0 auto;
+}
+
+header, .hero {
+    background: #ffe9c4;
+}
+
+header {
+    padding: 20px;
+    /* border-bottom: 1px solid #ddd; */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h1 {
+    margin: 0;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar li {
+    margin-left: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333;
+}
+
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.hero h1, .hero h2 {
+    margin: 10px 0;
+}
+
+.hero p {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.hero .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.features, .facts, .sponsors {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.features-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.team-img {
+    width: 200px;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.experience-grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    gap: 20px;
+}
+
+.architect-img {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.fact-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.fact {
+    width: 200px;
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
